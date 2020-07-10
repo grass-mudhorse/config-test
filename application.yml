@@ -1,2 +1,6 @@
 application:
     message: Hello man
+ 
+ 
+server:
+    port: 7999
