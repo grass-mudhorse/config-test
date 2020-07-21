@@ -1,6 +1,2 @@
-spring:
-  application:
-    name: account
-
 application:
   message: It is successful
