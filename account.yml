@@ -9,4 +9,8 @@ spring:
     password: Database123456
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+mybatis:
+  type-aliases-package: com.sirius.entity
+  mapper-locations: classpath:/mapping/*.xml
+
 
