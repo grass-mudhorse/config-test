@@ -10,6 +10,3 @@ spring:
 mybatis:
   type-aliases-package: com.sirius.entity
   mapper-locations: classpath:/mapping/*.xml
-  
-application:
-  message: it's good.
