@@ -1,2 +1,12 @@
 application:
   message: It is successful
+
+spring:
+  datasource:
+    name: orderingsystem
+    url: jdbc:mysql://sirius-database.mysql.database.azure.com:3306/orderingsystem?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&useSSL=true&requireSSL=false
+    username: sirius@sirius-database
+    password: Database123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
